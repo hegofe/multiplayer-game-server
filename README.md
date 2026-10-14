@@ -24,9 +24,9 @@ stateDiagram-v2
     open --> running: 5 s betting window closes
     running --> closed: 2 s wait, then the flight lands
     closed --> [*]: winners paid, round deleted
-    created --> cancelled: POST /rounds/test
-    open --> cancelled: POST /rounds/test
-    running --> cancelled: POST /rounds/test
+    created --> cancelled
+    open --> cancelled
+    running --> cancelled
     cancelled --> [*]: stakes refunded
 ```
 
@@ -36,7 +36,7 @@ stateDiagram-v2
 | `open` | 5 s | The only state that accepts bets. |
 | `running` | 2 s + flight | Betting is closed. The landing point is drawn and stored, pending bets are flushed to Redis, then the plane flies. |
 | `closed` | until paid | The plane has landed. The result goes to the history, winners are paid asynchronously, and the next round is created at the same instant. |
-| `cancelled` | until refunded | A test round replaced this one. Every stake is refunded. |
+| `cancelled` | until refunded | The round was cancelled. Every stake is refunded. |
 
 Rules: one bet per user and round; the amount is a whole number of at least 1; the target multiplier is at least 1.01x with two decimals at most; landing exactly on the target wins.
 
@@ -109,7 +109,7 @@ Redis keys:
 | `POST` | `/bets` | Places a bet on a round. |
 | `GET` | `/rounds/{roundId}/bets/count` | Number of bets in a round, as a bare integer. |
 | `GET` | `/rounds/history` | Round id and landing multiplier of the last 10 rounds. |
-| `POST` | `/rounds/test` | Cancels the round in progress and opens a test round now, with a longer betting window. |
+| `POST` | `/rounds/test` | Cancels the round in progress and opens a test round now, with a longer betting window. This endpoint exists only for testing purposes. |
 | `GET` | `/players/{userId}/balance` | A user's balance. |
 | `GET` | `/health` | 200 when the service is up and Redis answers; 503 otherwise or while shutting down. |
 
