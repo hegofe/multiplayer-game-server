@@ -1,0 +1,10 @@
+{
+  "queueSize": 16,
+  "attempts": 500,
+  "inFlight": 1,
+  "queued": 16,
+  "rejectedBusy": 484,
+  "maxRejectWaitMs": 0,
+  "acceptedAfterRelease": 16,
+  "other": 0
+}

@@ -1,0 +1,27 @@
+{
+  "name": "base",
+  "mode": "uniform",
+  "bets": 5000,
+  "vus": 1000,
+  "windowMs": 4800,
+  "sent": 5000,
+  "accepted": 5000,
+  "rejectedClosed": 0,
+  "rejectedBusy": 0,
+  "rejectedOther": 0,
+  "transportErrors": 0,
+  "acceptedAfterClose": 0,
+  "behindSchedule": 0,
+  "stored": 5000,
+  "latencyMs": {
+    "avg": 6.05956904000002,
+    "med": 5.8942499999999995,
+    "p90": 9.025290000000002,
+    "p95": 10.0348,
+    "p99": 13.683342000000028,
+    "max": 21.7204
+  },
+  "sendDelayP95Ms": 1.280029296875,
+  "errorRate": 0,
+  "targetRate": 1041.6666666666667
+}

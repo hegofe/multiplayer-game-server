@@ -1,0 +1,27 @@
+{
+  "name": "burst",
+  "mode": "burst",
+  "bets": 5000,
+  "vus": 1000,
+  "windowMs": 4800,
+  "sent": 5000,
+  "accepted": 5000,
+  "rejectedClosed": 0,
+  "rejectedBusy": 0,
+  "rejectedOther": 0,
+  "transportErrors": 0,
+  "acceptedAfterClose": 0,
+  "behindSchedule": 1366,
+  "stored": 5000,
+  "latencyMs": {
+    "avg": 68.77387110000014,
+    "med": 34.106899999999996,
+    "p90": 210.2996,
+    "p95": 266.82526000000007,
+    "p99": 289.26698700000003,
+    "max": 371.6622
+  },
+  "sendDelayP95Ms": 192.01250000000005,
+  "errorRate": 0,
+  "targetRate": 1041.6666666666667
+}

@@ -1,0 +1,27 @@
+{
+  "name": "stress-2x",
+  "mode": "uniform",
+  "bets": 10000,
+  "vus": 1000,
+  "windowMs": 4800,
+  "sent": 10000,
+  "accepted": 10000,
+  "rejectedClosed": 0,
+  "rejectedBusy": 0,
+  "rejectedOther": 0,
+  "transportErrors": 0,
+  "acceptedAfterClose": 0,
+  "behindSchedule": 3,
+  "stored": 10000,
+  "latencyMs": {
+    "avg": 11.252757179999966,
+    "med": 8.68185,
+    "p90": 19.70961,
+    "p95": 30.10437999999998,
+    "p99": 52.09221100000001,
+    "max": 219.484
+  },
+  "sendDelayP95Ms": 6.39990234375,
+  "errorRate": 0,
+  "targetRate": 2083.3333333333335
+}

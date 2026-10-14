@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aviator
+  namespace: aviator
+  labels:
+    app: aviator
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: aviator
+  template:
+    metadata:
+      labels:
+        app: aviator
+    spec:
+      terminationGracePeriodSeconds: 20
+      securityContext:
+        runAsNonRoot: true
+      containers:
+        - name: server
+          image: aviator-server
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: aviator-config
+          env:
+            - name: SHUTDOWN_TIMEOUT
+              value: 10s
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            periodSeconds: 2
+            failureThreshold: 2
+          livenessProbe:
+            tcpSocket:
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            failureThreshold: 3
+          lifecycle:
+            preStop:
+              sleep:
+                seconds: 3
+          resources:
+            requests:
+              cpu: 250m
+              memory: 64Mi
+            limits:
+              memory: 512Mi

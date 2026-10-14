@@ -1,0 +1,183 @@
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.06s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.02s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.08s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.03s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.02s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.03s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.01s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.02s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.03s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.02s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.01s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.03s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.02s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.03s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.01s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.03s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.02s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.01s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.05s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.02s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.01s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.02s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.02s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.08s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.03s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.04s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.07s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.03s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.04s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.06s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.02s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.03s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.04s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.01s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.03s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.01s)
+=== RUN   TestConcurrencyBurstAtClose
+    table_concurrency_test.go:108: burst at close: 1000 bets, 500 accepted, 500 rejected as closed, 0 accepted late, 500 stored, balances consistent=true
+--- PASS: TestConcurrencyBurstAtClose (0.03s)
+=== RUN   TestConcurrencySameUser
+    table_concurrency_test.go:172: same user: 200 simultaneous attempts, 1 accepted, 199 rejected as duplicates, debited once=true
+--- PASS: TestConcurrencySameUser (0.01s)
+=== RUN   TestConcurrencyQueueSaturation
+    table_concurrency_test.go:259: saturation: queue of 16, 500 attempts while the table was busy, 16 queued, 484 rejected immediately, 16 queued bets accepted after release
+--- PASS: TestConcurrencyQueueSaturation (0.01s)
+PASS
+coverage: 41.7% of statements
+ok  	aviator/internal/game	2.678s	coverage: 41.7% of statements

@@ -1,0 +1,11 @@
+/bin/
+*.exe
+*.test
+*.out
+
+/loadtest/results/*.json
+
+.vscode/
+.idea/
+PLAN.md
+TASKS.md

@@ -1,0 +1,512 @@
+{
+  "bets": 1000,
+  "accepted": 500,
+  "rejectedClosed": 500,
+  "rejectedOther": 0,
+  "acceptedLate": 0,
+  "storedBets": 500,
+  "balanceExpectedCents": 9950000,
+  "balanceActualCents": 9950000,
+  "buckets": [
+    {
+      "offsetMs": -50,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -49,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -48,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -47,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -46,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -45,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -44,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -43,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -42,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -41,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -40,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -39,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -38,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -37,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -36,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -35,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -34,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -33,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -32,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -31,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -30,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -29,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -28,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -27,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -26,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -25,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -24,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -23,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -22,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -21,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -20,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -19,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -18,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -17,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -16,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -15,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -14,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -13,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -12,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -11,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -10,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -9,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -8,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -7,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -6,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -5,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -4,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -3,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -2,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": -1,
+      "accepted": 10,
+      "rejected": 0
+    },
+    {
+      "offsetMs": 0,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 1,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 2,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 3,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 4,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 5,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 6,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 7,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 8,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 9,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 10,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 11,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 12,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 13,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 14,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 15,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 16,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 17,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 18,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 19,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 20,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 21,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 22,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 23,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 24,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 25,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 26,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 27,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 28,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 29,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 30,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 31,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 32,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 33,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 34,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 35,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 36,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 37,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 38,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 39,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 40,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 41,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 42,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 43,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 44,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 45,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 46,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 47,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 48,
+      "accepted": 0,
+      "rejected": 10
+    },
+    {
+      "offsetMs": 49,
+      "accepted": 0,
+      "rejected": 10
+    }
+  ]
+}

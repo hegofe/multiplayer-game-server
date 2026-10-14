@@ -1,0 +1,9 @@
+{
+  "attempts": 200,
+  "accepted": 1,
+  "duplicates": 199,
+  "other": 0,
+  "storedBets": 1,
+  "balanceExpectedCents": 9500,
+  "balanceActualCents": 9500
+}
